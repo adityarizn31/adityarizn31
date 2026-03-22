@@ -78,3 +78,43 @@ footer {
 .card .btn {
   border-radius: 20px;
 }
+
+.timeline {
+  position: relative;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-left: 2px solid #38bdf8;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-icon {
+  position: absolute;
+  left: -12px;
+  background: #38bdf8;
+  color: #0f172a;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+}
+
+.timeline-content {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.timeline-content h5 {
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  color: #cbd5f5;
+}
