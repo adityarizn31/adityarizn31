@@ -43,20 +43,29 @@ section {
   background: #38bdf8;
   color: #0f172a;
   border-radius: 30px;
+  transition: 0.3s;
 }
 
 .btn-custom:hover {
   background: #0ea5e9;
+  transform: scale(1.05);
 }
 
 .form-control {
   background: #1e293b;
-  border: none;
+  border: 1px solid #38bdf8;
   color: white;
 }
 
+.form-control::placeholder {
+  color: #94a3b8;
+}
+
 .form-control:focus {
+  border-color: #38bdf8;
   box-shadow: 0 0 10px #38bdf8;
+  background: #1e293b;
+  color: white;
 }
 
 footer {
@@ -125,10 +134,21 @@ footer {
 }
 
 #experience {
-  background: #0f172a;
+  /* background: #0f172a; */
+  background: #020617;
   padding: 80px 0;
 }
 
 #experience .container {
   max-width: 900px;
+}
+
+#education {
+  background: #020617;
+}
+
+#education .card {
+  background: #1e293b;
+  color: #e2e8f0;
+  border-radius: 15px;
 }
